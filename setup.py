@@ -15,7 +15,10 @@ setup(
         'click==7.0',
         'biopython==1.76',
         'tensorflow==2.4.3',
-        'python-wget==3.2'
+        'absl-py==0.10',
+        'termcolor==1.1.0',
+        'wrapt==1.12.1',
+        'wget==3.2'
     ],
     zip_safe=False,
     entry_points = {
